@@ -63,7 +63,7 @@ body{margin: 0 auto;background-color: #ffffff}
 	    border-radius: 34px;
 	    margin-top: -11px;
 	}
-input[type="text"]
+.xyz
 	{
 	    border: none;
 	    width: 80px;
@@ -117,7 +117,7 @@ input[type="text"]
 	{
 		margin-top: 153px;
 	    height: 29px;
-	    width: 112px;
+	    width: 121px;
 	    margin-left: 506px;
 	    border-radius: 18px;
 	    border: none;
@@ -149,16 +149,18 @@ input[type="text"]
 		font-family: 'Montserrat', sans-serif;
 		font-size: 20px;
 	}
-.what_we h2 u
+.vart
 	{
-		color: #828181;
+		width: 51px;
+	    border-bottom: 2px solid #828181;
+	    margin: 0 auto;
 	}
 .what_we p
 	{
 		background: #ffffff;
 	    color: #828181;
 	    font-family: 'Montserrat', sans-serif;
-	    margin-top: 8px;
+	    margin-top: 15px;
 	}
 .logos
 	{
@@ -237,7 +239,15 @@ input[type="text"]
 	}
 .our_L_W h2
 	{
-		color:#828181;
+		color: #0b6b0b;
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 24px;
+	}
+.vart2
+	{
+	    width: 51px;
+	    border-bottom: 2px solid #0d860d;
+	    margin: 0 auto;
 	}
 .our_L_W p
 	{
@@ -283,20 +293,20 @@ input[type="text"]
 .noborder2{border-right-style: none;}
 .gallery
 	{
-		width:900px;
-		height: 400px;
+		width: 750px;
+    	height: 394px;
 		margin-top: 20px;
 		margin: 0 auto;
 	}
 .gallery img
 	{
-	    width: 162px;
-	    height: 160px;
+	    width: 132px;
+    	height: 115px;
 	    position: relative;
 	    float: left;
 	    margin: 9px;
 	}
-.Testimonials
+.Testimonials,.meet
 	{
 		width: 1110px;
 		height: 300px;
@@ -366,6 +376,291 @@ input[type="text"]
 	    border: none;
 	    line-height: 2px;
 	}
+.meet
+	{
+		height: 410px;
+		margin: 0 auto;
+		background-color: #54d154;
+	}
+.team
+	{
+		position: static;
+	    text-align: center;
+	    display: inline-block;
+	    width: 1110px;
+	    height: 55px;
+	    margin-bottom: 0px;
+	    margin-top: 0px;
+	    background-color: #54d154;
+
+	}
+.team h2
+	{
+		background-color: #54d154;
+	    color: #828181;
+	    font-family: 'Montserrat', sans-serif;
+	    font-size: 20px;
+	    margin-top: 15px;
+	    font-weight: 600;
+	}
+.team p
+	{
+		color: #828181;
+		font-family: 'Montserrat', sans-serif;
+	    margin-top: 8px;
+	}
+.members
+	{
+		margin: 0 auto;
+	    width: 664px;
+	    height: 113px
+
+	}
+.members img
+	{
+		width: 83px;
+	    height: 84px;
+	    margin: 23px;
+	    position: relative;
+	    float: left;
+	    border-radius: 46px;
+	}
+.vartical_line
+	{
+		height: 65px;
+		margin-bottom: 10px;
+	}
+.vartical1
+	{
+		border-left: 2px solid #0e730e;;
+	    position: absolute;
+	    left: 405px;
+	    height: 65px;
+	}	
+.vartical2
+	{
+		border-left: 2px solid #0e730e;;
+	    position: absolute;
+	    left: 533px;
+	    height: 65px;
+	}
+.vartical3
+	{
+		border-left: 2px solid #0e730e;
+	    position: absolute;
+	    right: 684px;
+	    height: 65px;
+	}
+.vartical4
+	{
+		border-left: 2px solid #0e730e;
+	    position: absolute;
+	    right: 554px;
+	    height: 65px;
+	}
+.vartical5
+	{
+		border-left: 2px solid #0e730e;;
+	    position: absolute;
+	    right: 424px;
+	    height: 65px;
+	}
+.link{width: 1110px;height: 90px;}
+.footer1
+	{
+	    width: 1110px;
+	    background: #3eba3e;
+	    margin: 0 auto;
+	    height: 62px;
+	}
+.btn7
+	{
+		height: 33px;
+	    width: 141px;
+	    margin-top: 15px;
+	    background: #54d154;
+	    border: none;
+	    border-radius: 20px;
+	    margin-left: 490px;
+	    color: #fff;
+	    text-align: center;
+	}
+.last
+	{
+		width: 1110px;
+		height: 600px;
+		background-color: #333333;
+		margin: 0 auto;
+	}
+.left_content
+	{
+		width: 300px;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    float: left;
+        margin-left: 60px;
+        margin-top: 18px;
+	}
+.right_content
+	{
+		width: 320px;
+	    color: #dddddd;
+	    text-align: center;
+	    position: relative;
+	    float: left;
+        margin-left: 60px;
+        margin-top: 18px;
+	}
+.left_content h2,.right_content h2,.center_content h2
+	{
+		font-size: 17px;
+		font-family: 'Montserrat', sans-serif;
+		color: #dddddd;
+	}
+.center_content
+	{
+		width: 300px;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    float: left;
+        margin-left: 60px;
+        margin-top: 18px;
+
+	}
+.bwl1
+	{
+		height: 35px;
+	    width: 107px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 228px;
+	}
+.fori
+	{
+		position: relative;
+	    float: left;
+	    color: #7a857a;
+	    margin-left: 11px;
+	}
+.bwl2
+	{
+		height: 35px;
+	    width: 107px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 252px;
+	}
+.bwl3
+	{
+		height: 35px;
+	    width: 107px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 275px;
+	}
+.bwl4
+	{
+		height: 35px;
+	    width: 107px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 298px;
+	}
+.bwl5
+	{
+		height: 35px;
+	    width: 107px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 323px;
+	}
+.bwll
+	{
+		height: 30px;
+	    width: 100px;
+	    background-color: #fff;
+	    position: relative;
+	    float: left;
+	    border: none;
+	    font-size: 20px;
+	    border-radius: 20px;
+	    left: 96px;
+	}
+.about3,.about2,.about
+
+	{
+		width: 51px;
+	    border-bottom: 2px solid #b7c1b7;
+	    margin: 0 auto;
+	}
+.tablle
+	{
+		width: 300px;
+	}
+table{width: 300px;}
+.tablle table tr td
+	{
+		font-size: 13px;
+		font-style: italic;
+		font-stretch: extra-expanded;
+		font-weight: 800;
+		
+	}
+input[type="text"],input[type="Email"]
+	{
+		padding: 10px;
+	    width: 320px;
+	    border: 1px solid #96958d;
+	    border-radius: 5px;
+	    margin-bottom: 5px;
+	    margin-left: 0px;
+	    background: #333;
+	}
+	
+input[type="Submit"] 
+	{
+		font-size: 19px;
+	    padding: 9px 12px;
+	    background: #54d154;
+	    font-variant: all-petite-caps;
+	    border-radius: 5px;
+	    width: 320px;
+	    border: none;
+	    color:#fff;
+	}
+input[type="Submit"]:hover{color:#02cf02;background:#454141;}
+textarea 
+	{	width: 320px;
+		height: 154px;
+		border: 1px solid #96958d;
+		border-radius: 5px;
+		
+		padding:5px;
+		background-color: #333333;
+	}
+
 //for responsiv
 /*@media screen and (max-width: 1024px)
 	{
